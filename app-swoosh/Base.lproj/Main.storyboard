@@ -174,7 +174,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b7r-35-Ea2" kind="show" id="ZeF-Jk-Yfe"/>
+                                    <action selector="onNextTapped:" destination="0tU-of-WUd" eventType="touchUpInside" id="QHI-Im-YUL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohq-UY-XVk" userLabel="backButton">
@@ -184,6 +184,9 @@
                                     <constraint firstAttribute="height" constant="33" id="mxQ-AI-pn8"/>
                                 </constraints>
                                 <state key="normal" image="backButton"/>
+                                <connections>
+                                    <segue destination="RQn-8s-t7O" kind="unwind" unwindAction="unwindFromLeagueVCWithUnwindSegue:" id="xnn-X3-Mkt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -206,8 +209,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Pl-ou-xnh"/>
                     </view>
+                    <connections>
+                        <segue destination="b7r-35-Ea2" kind="show" identifier="skillVCSegue" id="h8k-Cc-5OH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mK-6V-int" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="RQn-8s-t7O" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="955.66406249999989" y="129.57540263543191"/>
         </scene>
@@ -230,7 +237,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="V0G-T5-2an" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSeque:" id="bM6-Fo-1Od"/>
+                                    <segue destination="V0G-T5-2an" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="NPX-B0-p1g"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="ySk-nH-ZvD" userLabel="Top Stack">
