@@ -188,7 +188,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="1Sh-FF-5Rv" secondAttribute="bottom" constant="20" id="2ly-Vs-ool"/>
                             <constraint firstItem="4Kb-wX-1Oy" firstAttribute="top" secondItem="ohq-UY-XVk" secondAttribute="bottom" constant="20" id="70v-Gh-Uyp"/>
                             <constraint firstItem="4Kb-wX-1Oy" firstAttribute="leading" secondItem="2Pl-ou-xnh" secondAttribute="leading" constant="20" id="DUu-PA-rBh"/>
                             <constraint firstItem="2Pl-ou-xnh" firstAttribute="trailing" secondItem="bGi-kS-vVC" secondAttribute="trailing" constant="20" id="ENF-iA-5Nu"/>
@@ -204,7 +203,6 @@
                             <constraint firstItem="ohq-UY-XVk" firstAttribute="top" secondItem="2Pl-ou-xnh" secondAttribute="top" constant="10" id="pMO-ox-TOW"/>
                             <constraint firstItem="bGi-kS-vVC" firstAttribute="top" secondItem="4Kb-wX-1Oy" secondAttribute="bottom" constant="50" id="tQC-29-1Bh"/>
                             <constraint firstItem="4io-fE-jlm" firstAttribute="top" secondItem="R6I-XK-zgw" secondAttribute="topMargin" constant="-35" id="v4j-uq-Nwd"/>
-                            <constraint firstItem="1Sh-FF-5Rv" firstAttribute="leading" secondItem="R6I-XK-zgw" secondAttribute="leadingMargin" id="vqp-NX-Wfx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Pl-ou-xnh"/>
                     </view>
