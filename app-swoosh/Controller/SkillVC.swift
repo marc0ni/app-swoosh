@@ -13,6 +13,8 @@ class SkillVC: UIViewController {
     @IBOutlet weak var ballerBtn: BorderButton!
     @IBOutlet weak var finishBtn: BorderButton!
     
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
