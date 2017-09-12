@@ -56,6 +56,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onGetStartedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Moh-PR-cFu"/>
                                     <segue destination="0tU-of-WUd" kind="show" identifier="segueToLeagueVC" id="bMk-Lb-Cmr"/>
                                 </connections>
                             </button>
@@ -90,6 +91,7 @@
                     </view>
                     <connections>
                         <outlet property="bgImg" destination="Gbv-U8-g9W" id="4Gw-Gi-Ufz"/>
+                        <outlet property="getStartedButton" destination="Yhe-SW-YVa" id="pyP-6I-NwQ"/>
                         <outlet property="swoosh" destination="8Of-10-mg8" id="Mx3-5S-QXq"/>
                     </connections>
                 </viewController>
@@ -219,7 +221,10 @@
                         <viewLayoutGuide key="safeArea" id="2Pl-ou-xnh"/>
                     </view>
                     <connections>
+                        <outlet property="coedButton" destination="CGU-nf-aer" id="P0d-43-WyL"/>
+                        <outlet property="mensButton" destination="GrK-ZW-OZm" id="KwJ-aR-bVi"/>
                         <outlet property="nextBtn" destination="1Sh-FF-5Rv" id="7ZW-Zn-dLE"/>
+                        <outlet property="womensButton" destination="QDd-Dc-4gd" id="3MO-Fq-I8v"/>
                         <segue destination="b7r-35-Ea2" kind="show" identifier="skillVCSegue" id="h8k-Cc-5OH"/>
                     </connections>
                 </viewController>
@@ -282,6 +287,9 @@
                                         <state key="normal" title="Beginner">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onBeginnerTapped:" destination="b7r-35-Ea2" eventType="touchUpInside" id="h87-AB-NCd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vl2-8c-v4p" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="199.66666666666663" y="0.0" width="174.33333333333337" height="50"/>
@@ -293,6 +301,9 @@
                                         <state key="normal" title="Baller">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onBallerTapped:" destination="b7r-35-Ea2" eventType="touchUpInside" id="QBE-sS-Okd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -306,6 +317,9 @@
                                 <state key="normal" title="FINISH">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onFinishTapped:" destination="b7r-35-Ea2" eventType="touchUpInside" id="lFR-MN-5em"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -331,6 +345,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YCv-eK-bvE"/>
                     </view>
+                    <connections>
+                        <outlet property="ballerBtn" destination="Vl2-8c-v4p" id="CAI-GH-jd5"/>
+                        <outlet property="beginnerBtn" destination="piX-9A-gpc" id="zMq-Gj-mvv"/>
+                        <outlet property="finishBtn" destination="lmM-HH-JRv" id="sP9-kV-pU5"/>
+                        <outlet property="onBallerTapped" destination="Vl2-8c-v4p" id="XN5-bs-gEi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdq-Kt-5Tv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="V0G-T5-2an" userLabel="Exit" sceneMemberID="exit"/>

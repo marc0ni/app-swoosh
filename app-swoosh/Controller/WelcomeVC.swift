@@ -11,6 +11,7 @@ import UIKit
 class WelcomeVC: UIViewController {
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
+    @IBOutlet weak var getStartedButton: BorderButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,9 @@ class WelcomeVC: UIViewController {
         
     }
     
+    @IBAction func onGetStartedTapped(_ sender: Any) {
+        getStartedButton.dim()
+    }
     
 
 }

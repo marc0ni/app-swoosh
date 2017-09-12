@@ -19,6 +19,7 @@
 		38243E521F661DC3009D2103 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38243E511F661DC3009D2103 /* LeagueVC.swift */; };
 		38243E541F661DE8009D2103 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38243E531F661DE8009D2103 /* SkillVC.swift */; };
 		38243E561F673F32009D2103 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38243E551F673F32009D2103 /* Player.swift */; };
+		38243E581F6783E5009D2103 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38243E571F6783E5009D2103 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		38243E511F661DC3009D2103 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		38243E531F661DE8009D2103 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		38243E551F673F32009D2103 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		38243E571F6783E5009D2103 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				38243E4D1F64905A009D2103 /* BorderButton.swift */,
+				38243E571F6783E5009D2103 /* UIButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				38243E521F661DC3009D2103 /* LeagueVC.swift in Sources */,
 				38243E0F1F6471BD009D2103 /* WelcomeVC.swift in Sources */,
 				38243E151F6471BE009D2103 /* app_swoosh.xcdatamodeld in Sources */,
+				38243E581F6783E5009D2103 /* UIButton.swift in Sources */,
 				38243E0D1F6471BD009D2103 /* AppDelegate.swift in Sources */,
 				38243E561F673F32009D2103 /* Player.swift in Sources */,
 				38243E541F661DE8009D2103 /* SkillVC.swift in Sources */,

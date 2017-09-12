@@ -9,7 +9,10 @@
 import UIKit
 
 class SkillVC: UIViewController {
-
+    @IBOutlet weak var beginnerBtn: BorderButton!
+    @IBOutlet weak var ballerBtn: BorderButton!
+    @IBOutlet weak var finishBtn: BorderButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +24,17 @@ class SkillVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func onBeginnerTapped(_ sender: Any) {
+    
+    }
+    
+    @IBAction func onBallerTapped(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onFinishTapped(_ sender: Any) {
+        
+    }
+    
 
 }
