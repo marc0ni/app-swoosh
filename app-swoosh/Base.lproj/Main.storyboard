@@ -178,8 +178,11 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sh-FF-5Rv" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="20" y="680" width="374" height="36"/>
+                                <rect key="frame" x="20" y="666" width="374" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.39389249209999999" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="diJ-XB-Vfe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -349,7 +352,6 @@
                         <outlet property="ballerBtn" destination="Vl2-8c-v4p" id="CAI-GH-jd5"/>
                         <outlet property="beginnerBtn" destination="piX-9A-gpc" id="zMq-Gj-mvv"/>
                         <outlet property="finishBtn" destination="lmM-HH-JRv" id="sP9-kV-pU5"/>
-                        <outlet property="onBallerTapped" destination="Vl2-8c-v4p" id="XN5-bs-gEi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdq-Kt-5Tv" userLabel="First Responder" sceneMemberID="firstResponder"/>
