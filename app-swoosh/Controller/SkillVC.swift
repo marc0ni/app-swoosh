@@ -25,15 +25,15 @@ class SkillVC: UIViewController {
     }
     
     @IBAction func onBeginnerTapped(_ sender: Any) {
-    
+        beginnerBtn.dim()
     }
     
     @IBAction func onBallerTapped(_ sender: Any) {
-        
+        ballerBtn.dim()
     }
     
     @IBAction func onFinishTapped(_ sender: Any) {
-        
+        finishBtn.dim()
     }
     
 
